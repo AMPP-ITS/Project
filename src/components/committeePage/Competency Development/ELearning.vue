@@ -9,6 +9,10 @@
             <span class="dot"></span>
         </div>
 
+        <div class="title">
+            <h2>E-Learning</h2>
+        </div>
+
         <div class="gallery-wrap">
             <div class="gallery" ref="scrollContainer" @touchstart="onTouchStart" @touchmove="onTouchMove"
                 @touchend="onTouchEnd">

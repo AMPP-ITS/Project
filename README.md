@@ -50,15 +50,6 @@ npm i --save @fortawesome/fontawesome-svg-core
 npm i --save @fortawesome/free-solid-svg-icons
 npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/free-brands-svg-icons
-# Pro icons styles
-npm i --save @fortawesome/pro-solid-svg-icons
-npm i --save @fortawesome/pro-regular-svg-icons
-npm i --save @fortawesome/pro-light-svg-icons
-npm i --save @fortawesome/pro-thin-svg-icons
-npm i --save @fortawesome/pro-duotone-svg-icons
-npm i --save @fortawesome/sharp-solid-svg-icons
-npm i --save @fortawesome/sharp-regular-svg-icons
-npm i --save @fortawesome/sharp-light-svg-icons
 # for Vue 3.x
 npm i --save @fortawesome/vue-fontawesome@latest-3
 ```

@@ -48,18 +48,15 @@ To use Font Awesome icons, install the necessary packages:
 
 ```bash
 npm i --save @fortawesome/fontawesome-svg-core
-```
-```bash
 npm i --save @fortawesome/free-solid-svg-icons
-```
-```bash
 npm i --save @fortawesome/free-regular-svg-icons
-```
-```bash
 npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/vue-fontawesome@latest-3
+
 ```
 ```bash
-npm i --save @fortawesome/vue-fontawesome@latest-3
+npm i --save @fortawesome/fontawesome-svg-core && npm i --save @fortawesome/free-solid-svg-icons && npm i --save @fortawesome/free-regular-svg-icons && npm i --save @fortawesome/free-brands-svg-icons && npm i --save @fortawesome/vue-fontawesome@latest-3
+
 ```
 
 ## Customize Configuration 🔧

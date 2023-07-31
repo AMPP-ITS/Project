@@ -34,6 +34,8 @@ npm run lint
 
 ### Install Other Stuff 📚
 
+#### vue3-carousel 📚
+
 For carousel functionality, install the Vue3-carousel package:
 
 ```bash
@@ -46,11 +48,17 @@ To use Font Awesome icons, install the necessary packages:
 
 ```bash
 npm i --save @fortawesome/fontawesome-svg-core
-# Free icons styles
+```
+```bash
 npm i --save @fortawesome/free-solid-svg-icons
+```
+```bash
 npm i --save @fortawesome/free-regular-svg-icons
+```
+```bash
 npm i --save @fortawesome/free-brands-svg-icons
-# for Vue 3.x
+```
+```bash
 npm i --save @fortawesome/vue-fontawesome@latest-3
 ```
 

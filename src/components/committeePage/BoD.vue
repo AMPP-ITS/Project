@@ -15,7 +15,7 @@
                 <div class="image">
                     <div class="image-container" id="myButton1BoD">
                         <img src="https://drive.google.com/uc?id=1QDqU_geVOKvUQP_88DPl9FSbiCj6mtfv" alt="">
-                        <div class="bottom-center">Abdur</div>
+                        <div class="bottom-center">Rauf</div>
                     </div>
                     <div class="image-container" id="myButton2BoD">
                         <img src="https://drive.google.com/uc?id=1OfSIqvLfE_movA2HegnBDoeBqtoV86Q-" alt="">

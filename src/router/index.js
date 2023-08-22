@@ -4,6 +4,7 @@ import article from '../views/articlePage.vue'
 import theBoard from '../views/commiteePage.vue'
 import comingSoon from '../components/ComingSoonView.vue'
 import API from '../views/FormView.vue'
+import eventPage from '../views/eventPage.vue';
 
 const routes = [
   {
@@ -24,7 +25,7 @@ const routes = [
   {
     path: '/event',
     name: 'event',
-    component: comingSoon
+    component: eventPage
   },
   {
     path: '/register',

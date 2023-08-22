@@ -1,11 +1,11 @@
 <template>
     <div class="wrap">
-        <img src="@/assets/Events-1.jpg">
+        <img :src="image">
         <div class="bgGrey"></div>
         <div class="wrap-kata">
             <div class="kata">
-                <h1>Welcome to Our Magazine Collection!!</h1>
-                <p>Explore our diverse collection of magazines that showcase the latest trends, insights, and achievements of our organization. Stay updated with the latest news, articles, and more!
+                <h1>{{ judul }}</h1>
+                <p>{{ subJudul }}
                 </p>
                 <a class="button" href="#majalah">Learn More</a>
             </div>
@@ -14,8 +14,20 @@
 </template>
 
 <script>
+import books from "@/assets/Events-1.jpg"
+
 export default {
-    
+    props: {
+        judul: {
+            default: "Welcome to Our Magazine Collection!!"
+        },
+        subJudul: {
+            default: "Explore our diverse collection of magazines that showcase the latest trends, insights, and achievements of our organization. Stay updated with the latest news, articles, and more!"
+        },
+        image:{
+            default: books
+        }
+    },
 }
 </script>
 
@@ -77,6 +89,7 @@ export default {
 
 @media only screen and (max-width: 740px){
     .wrap{
+        height: 1100px;
         img{
             object-fit: cover;
         }
